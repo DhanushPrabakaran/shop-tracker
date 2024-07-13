@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Catogary = () => {
+const Category = () => {
   return (
     <section className="catagory w-full h-screen">
         hey
@@ -8,4 +8,4 @@ const Catogary = () => {
   )
 }
 
-export default Catogary
+export default Category

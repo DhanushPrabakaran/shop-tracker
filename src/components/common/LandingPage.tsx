@@ -6,7 +6,7 @@ const LandingPage = () => {
       <div className="  text-white h-screen top-0 stick flex align-middle items-center">
         <div className="container mx-auto flex flex-col md:flex-row items-center align-middle ">
           <div className="flex flex-col   justify-center items-start  p-2">
-            <h1 className="text-6xl sm:text-5xl md:text-8xl text-yellow-300 tracking-loose font-WtfHorseland ">
+            <h1 className="text-6xl sm:text-5xl md:text-8xl text-yellow-300 tracking-loose font-WtfHorseland max-w-6xl ">
               <span className="text-white ">
                 hey <br />
               </span>
