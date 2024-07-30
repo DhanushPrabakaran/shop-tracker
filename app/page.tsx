@@ -27,25 +27,37 @@ const Home = () => {
             className=" w-full bg-cover h-full  object-cover rounded-xl p-2 hover:object-right-top duration-1000"
           />
           <MdArrowOutward
-            className="absolute right-0 top-0 fill-primary-white hover:scale-150 "
+            className="absolute right-0 top-0 fill-transparent "
             size={"12vh"}
           />
         </div>
 
         <div className="flex-grow h-screen lg:w-[25vw]">
-          <div className="h-[50vh]">
+          <div className=" relative h-[50vh]">
             <Image
               src={img1}
               alt={""}
-              className=" w-full bg-cover h-full  object-cover rounded-xl p-1 "
+              className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pt-2"
+            />
+
+            <MdArrowOutward
+              className=" absolute fill-primary-white right-0 top-0"
+              size={70}
             />
           </div>
           <div className="h-[50vh]">
-            <Image
-              src={img1}
-              alt={""}
-              className=" w-full bg-cover h-full  object-cover rounded-xl p-1"
-            />
+            <div className="border-primary-black relative flex content-center res-text-lg group w-full h-full">
+              <span className="z-10 group-hover:text-primary-white ">
+                <Image
+                  src={img1}
+                  alt={""}
+                  className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pb-2"
+                />
+              </span>
+              <span className=" absolute w-full   bg-primary-white h-0 top-1/2 left-0 group-hover:h-full group-hover:top-0 duration-500 ease-in-out z-40 text-transparent hover:text-primary-black rounded-xl text-center res-heading-base align-middle flex justify-center items-center uppercase ">
+             <span>Make healthy life with fresh grocery</span> 
+              </span>
+            </div>
           </div>
         </div>
       </div>
