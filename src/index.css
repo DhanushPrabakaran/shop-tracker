@@ -1,8 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-    font-family: "WtfHorseland";
-    src: url("../fonts/wtf-horseland-font/WtfHorselandDemo-4n3y6.ttf");
-  }
