@@ -38,7 +38,8 @@ const config: Config = {
         },
       },
       animation: {
-        'slide-up': 'slide-up 0.5s ease-out forwards',
+        'slide-up': 'slide-up 1s ease-out forwards',
+
       },
     },
   },

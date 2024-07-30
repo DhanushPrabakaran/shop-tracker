@@ -115,7 +115,7 @@ const landingPage = () => {
             size={70}
           /> */}
           <Image 
-          className=" absolute fill-primary-white left-0 bottom-0 size-20 m-2  duration-700 ease-linear animate-slide-up
+          className=" absolute fill-primary-white left-0 bottom-0 size-20 m-2  duration-700 ease-linear 
            invert animate-spin transition-all"
           
           src={iconwith} alt={''} />
