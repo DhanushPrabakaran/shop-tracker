@@ -23,8 +23,9 @@ const config: Config = {
         "primary-white": "#f3f6fa",
       },
       backgroundImage: {
+        // https://github.com/DhanushPrabakaran/shop-tracker/blob/main/public/images/background.webp
         'hero-pattern': "url('https://images.unsplash.com/photo-1506617564039-2f3b650b7010?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'texture': "url('../public/images/background.png')",
       },
       fontFamily:{
         "WtfHorseland":"WtfHorseland",
