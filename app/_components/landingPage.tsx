@@ -2,6 +2,7 @@ import React from 'react'
 import Image from "next/image";
 import img1 from "@/public/images/supermarket.webp";
 import { MdArrowOutward } from "react-icons/md";
+import iconwith from "@/public/images/iconwithcircle.png"
 const landingPage = () => {
   return (
     <div className="text-black w-full min-h-screen flex lg:flex-row flex-col font-MintGrotesk">
@@ -72,13 +73,13 @@ const landingPage = () => {
         <div className="border border-transparent hover:border-primary-black ease-linear duration-300 hover:bg-slate-100 hover:shadow"></div>
       </span> */}
       <div className="z-10 lg:ml-3">
-        <h1 className=" res-heading-xl ">
+        <h1 className=" res-heading-xl animate-slide-up">
           Hey <br />
           Make healthy life with fresh grocery
         </h1>
         <a
           href="/"
-          className="border-primary-black relative flex content-center border  px-3 py-[10px] leading-[11px] res-text-lg group w-fit mt-3"
+          className="border-primary-black relative flex content-center border  px-3 py-[10px] leading-[11px] res-text-lg group w-fit mt-3 animate-slide-up "
         >
           <span className="z-10 group-hover:text-primary-white ">
             CONTACT
@@ -93,7 +94,7 @@ const landingPage = () => {
         <Image
           src={img1}
           alt={""}
-          className=" w-full bg-cover h-full  object-cover rounded-xl py-2 hover:object-right-top duration-1000"
+          className=" w-full bg-cover h-full  object-cover rounded-xl py-2 hover:object-right-top duration-1000 animate-slide-up"
         />
         <MdArrowOutward
           className="absolute right-0 top-0 fill-transparent "
@@ -106,13 +107,18 @@ const landingPage = () => {
           <Image
             src={img1}
             alt={""}
-            className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pt-2"
+            className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pt-2 animate-slide-up"
           />
 
-          <MdArrowOutward
+          {/* <MdArrowOutward
             className=" absolute fill-primary-white right-0 top-0"
             size={70}
-          />
+          /> */}
+          <Image 
+          className=" absolute fill-primary-white left-0 bottom-0 size-20 m-2  duration-700 ease-linear animate-slide-up
+           invert animate-spin transition-all"
+          
+          src={iconwith} alt={''} />
         </div>
         <div className="h-[50vh]">
           <div className="border-primary-black relative flex content-center res-text-lg group w-full h-full">
@@ -120,7 +126,7 @@ const landingPage = () => {
               <Image
                 src={img1}
                 alt={""}
-                className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pb-2"
+                className=" w-full bg-cover h-full  object-cover rounded-xl p-1 pb-2 animate-slide-up"
               />
             </span>
             <span className=" absolute w-full   bg-primary-white h-0 top-1/2 left-0 group-hover:h-full group-hover:top-0 duration-500 ease-in-out z-40 text-transparent hover:text-primary-black rounded-xl text-center res-heading-base align-middle flex justify-center items-center uppercase ">
