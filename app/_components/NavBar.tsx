@@ -40,13 +40,11 @@ const NavBar = () => {
           <span className=" absolute w-full  rounded-full bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
         </a>
       </ul>
-      <h1 className="text-3xl  text-logo px-4 h-full font-bold">ShopTraker</h1>
+      <h1 className="text-3xl  text-logo px-4 h-full font-bold uppercase ">ShopTraker</h1>
       <ul className=" items-center flex text-xs gap-3">
         <a
           href="/"
-          className="border-primary-black relative
-           lg:flex hidden 
-           content-center border rounded-full px-3 py-[10px] leading-[11px] group"
+          className="border-primary-black relative lg:flex hidden content-center border rounded-full px-3 py-[10px] leading-[11px] group"
         >
           <span className="z-10 group-hover:text-primary-white ">CONTACT</span>
           <span className=" absolute w-full  rounded-full bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
