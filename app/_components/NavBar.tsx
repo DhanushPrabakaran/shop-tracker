@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-// import Image from "next/image";
-// import cam from "@/public/cam.svg";
+
+import { useRouter } from "next/router";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,11 +27,11 @@ const NavBar = () => {
            lg:flex hidden 
            content-center border  px-3 py-[10px] leading-[11px] group"
         >
-          <span className="z-10 group-hover:text-primary-white ">CATALOG</span>
+          <span className="z-10 group-hover:text-primary-white ">UPLOAD</span>
           <span className=" absolute w-full   bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
         </a>
         <a
-          href="/"
+          href="/shop"
           className="border-primary-black relative
            lg:flex hidden 
            content-center border  px-3 py-[10px] leading-[11px] group"

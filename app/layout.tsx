@@ -21,8 +21,8 @@ export default function RootLayout({
       <body className={`${inter.className} font-MintGrotesk`}>
         <NavBar/>
         {children}
-        </body>
         <Footer/>
+        </body>
     </html>
   );
 }
