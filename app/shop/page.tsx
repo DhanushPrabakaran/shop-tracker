@@ -2,14 +2,17 @@ import React from "react";
 import Search from "./_components/Search";
 import Image from "next/image";
 import image from "@/public/images/supermarket.webp"
+import CarouselElement from "@/app/_components/carouselElement"
 const Home = () => {
   return (
     <div className="text-black w-full min-h-screen justify-center items-center align-middle flex-col font-MintGrotesk ">
       <Search/>
+      {/* <CarouselElement/> */}
       <div
-      className=" flex flex-wrap w-full bg-black h-full ">
+      className=" flex flex-wrap w-full h-full ">
+
         <div
-        className=""
+        className=" "
         >
             <Image 
             src={image} 
