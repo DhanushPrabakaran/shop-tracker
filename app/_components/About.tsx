@@ -9,8 +9,8 @@ const About = () => {
       id="about"
       className="w-full min-h-screen h-full bg-white text-primary-black font-MintGrotesk justify-center items-center flex flex-col "
     >
-      <div className="max-w-[66vw] flex flex-col items-center  justify-center gap-14">
-        <div className="font-roslindale  res-heading-2xl w-full text-center flex flex-wrap justify-center items-center space-x-2">
+      <div className="max-w-[80vw] flex flex-col items-center  justify-center gap-14 ">
+        <div className="font-roslindale  res-heading-2xl w-full text-center flex flex-wrap justify-center items-center space-x-2 ">
           <div className="">A</div>
           <div className="flex flex-col items-end">
             <span className=" flex  lg:w-[6vw] lg:h-[8vw] max-md:w-[10vw] max-md:h-[10vw] max-sm:w-[12vw] max-sm:h-[12vw]">
@@ -59,7 +59,7 @@ const About = () => {
           spilled over into filmmaking which is one of the main creative outlets
           she pursues today.
         </p>
-        <button className=" border text-sm rounded-full px-3 py-2">
+        <button className=" border text-sm  px-3 py-3 bg-primary-black text-primary-white">
           READ MY STORY
         </button>
       </div>
