@@ -82,7 +82,7 @@ const Page: React.FC = () => {
       {/* Mobile Images */}
       <div className="md:hidden">
         <Image className="w-full" alt="Supermarket" src={Img} width={100} height={100} />
-        <div className="flex items-center justify-between mt-3 space-x-4">
+        <div className="flex items-center justify-between mt-3 space-x-4 overflow-y-scroll no-scrollbar ">
           {[...Array(4)].map((_, index) => (
             <Image
               key={index}
