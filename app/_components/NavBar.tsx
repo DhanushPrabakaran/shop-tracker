@@ -77,37 +77,59 @@ const NavBar = () => {
       <div
         className={`  w-full  align-middle fixed z-50 bg-white transform ${
           isMenuOpen ? "translate-y-full" : "-translate-y-96"
-        } transition-transform duration-300 ease-in-out lg:hidden`}
+        } transition-transform duration-300 ease-in-out lg:hidden `}
       >
-        <ul className="absolute flex flex-col items-center mt-[12vh] text-white  w-[70vw]  bg-primary-black z-40">
+        <ul className="absolute flex flex-col items-center mt-[12vh] text-black  w-[70vw]  bg-primary-white z-40  rounded-lg border border-primary-black">
           <a
             href="/"
-            className="border-primary-black relative
+            className="relative
            lg:flex  
-           content-center border  px-3 py-[10px] leading-[11px] group"
+           content-center  rounded-lg  px-3 py-[10px] leading-[11px] group w-full text-center h-10 "
           >
             <span className="z-10 group-hover:text-primary-white ">HOME</span>
-            <span className=" absolute w-full   bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
+            <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
           <a
             href="/"
-            className="border-primary-black relative
-           lg:flex 
-           content-center border  px-3 py-[10px] leading-[11px] group"
+            className="relative
+           lg:flex  
+           content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
           >
             <span className="z-10 group-hover:text-primary-white ">
               CATALOG
             </span>
-            <span className=" absolute w-full   bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
+            <span className=" absolute w-full rounded-lg  bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
           <a
             href="/"
-            className="border-primary-black relative
+            className="relative
            lg:flex  
-           content-center border  px-3 py-[10px] leading-[11px] group"
+           content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
           >
             <span className="z-10 group-hover:text-primary-white ">SHOP</span>
-            <span className=" absolute w-full   bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
+            <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
+          </a>
+          <a
+            href="/"
+            className="relative
+           lg:flex  
+           content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
+          >
+            <span className="z-10 group-hover:text-primary-white uppercase ">
+              Upload
+            </span>
+            <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
+          </a>
+          <a
+            href="/shop"
+            className="relative
+           lg:flex  
+           content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
+          >
+            <span className="z-10 group-hover:text-primary-white uppercase">
+              Products
+            </span>
+            <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
         </ul>
       </div>
