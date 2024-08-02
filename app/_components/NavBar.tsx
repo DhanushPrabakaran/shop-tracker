@@ -75,11 +75,11 @@ const NavBar = () => {
       </ul>
       {/* Sliding Menu */}
       <div
-        className={`  w-full  align-middle fixed z-50 bg-white transform ${
+        className={`  w-full  align-middle fixed z-50 bg-primary-white transform left-0 ${
           isMenuOpen ? "translate-y-full" : "-translate-y-96"
         } transition-transform duration-300 ease-in-out lg:hidden `}
       >
-        <ul className="absolute flex flex-col items-center mt-[12vh] text-black  w-[70vw]  bg-primary-white z-40  rounded-lg border border-primary-black">
+        <ul className="absolute  flex flex-col items-center mt-[12vh] text-black  w-full  bg-white z-40  rounded-lg border border-primary-black">
           <a
             href="/"
             className="relative
