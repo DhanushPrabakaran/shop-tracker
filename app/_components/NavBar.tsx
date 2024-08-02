@@ -22,7 +22,7 @@ const NavBar = () => {
           <span className=" absolute w-full   bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
         </a>
         <a
-          href="/"
+          href="/upload"
           className="border-primary-black relative
            lg:flex hidden 
            content-center border  px-3 py-[10px] leading-[11px] group"
@@ -101,7 +101,7 @@ const NavBar = () => {
             <span className=" absolute w-full rounded-lg  bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
           <a
-            href="/"
+            href="/shop"
             className="relative
            lg:flex  
            content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
@@ -110,7 +110,7 @@ const NavBar = () => {
             <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
           <a
-            href="/"
+            href="/upload"
             className="relative
            lg:flex  
            content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"
@@ -121,7 +121,7 @@ const NavBar = () => {
             <span className=" absolute w-full  rounded-lg bg-primary-black h-0 top-1/2 left-0 -z-40 group-hover:h-full group-hover:top-0 duration-500 ease-in-out"></span>
           </a>
           <a
-            href="/shop"
+            href="/product"
             className="relative
            lg:flex  
            content-center   px-3 py-[10px] leading-[11px] group w-full text-center h-10"

@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} font-MintGrotesk`}>
+      <body className={`${inter.className} font-MintGrotesk bg-pattern`}>
         <NavBar/>
         {children}
         <Footer/>
