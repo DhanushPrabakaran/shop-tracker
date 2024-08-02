@@ -121,8 +121,8 @@ const Page: React.FC = () => {
               <h1 className="text-xl lg:text-2xl font-semibold text-gray-800 mt-2">
                 {selectedItem.name}
               </h1>
-              <p className="text-base text-gray-600">Category: {selectedItem.category}</p>
-              <p className="text-base text-gray-800 mt-2">Price: {selectedItem.price}</p>
+              <p className="text-base text-gray-600">Category : {selectedItem.category}</p>
+              <p className="text-base text-gray-800 mt-2">Price : {selectedItem.price}</p>
             </div>
 
             <div className="py-4 border-b border-gray-200">
@@ -152,7 +152,7 @@ const Page: React.FC = () => {
             )}
 
             <button
-              className="w-full py-4 text-base text-white bg-gray-800 hover:bg-gray-700 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
+              className="w-full py-4 text-base text-white bg-primary-black hover:bg-gray-700 flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
             >
               <svg className="mr-3" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.02301 7.18999C7.48929 6.72386 7.80685 6.12992 7.93555 5.48329C8.06425 4.83666 7.9983 4.16638 7.74604 3.55724C7.49377 2.94809 7.06653 2.42744 6.51835 2.06112C5.97016 1.6948 5.32566 1.49928 4.66634 1.49928C4.00703 1.49928 3.36252 1.6948 2.81434 2.06112C2.26615 2.42744 1.83891 2.94809 1.58665 3.55724C1.33439 4.16638 1.26843 4.83666 1.39713 5.48329C1.52583 6.12992 1.8434 6.72386 2.30968 7.18999L4.66634 9.54749L7.02301 7.18999Z" stroke="white" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
